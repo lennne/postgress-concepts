@@ -1,0 +1,26 @@
+{
+  "name": "postgress-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennne/postgress-concepts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lennne/postgress-concepts/issues"
+  },
+  "homepage": "https://github.com/lennne/postgress-concepts#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "pg": "^8.18.0"
+  }
+}
