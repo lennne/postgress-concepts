@@ -27,8 +27,9 @@ async function query(text, params){
         return result
     }catch(error){
         console.log('Daatabaes query error', error)
+        // pool.end()
     }finally{
-        pool.end()
+
     }
 }
 
